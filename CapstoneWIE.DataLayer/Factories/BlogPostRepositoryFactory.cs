@@ -15,6 +15,8 @@ namespace CapstoneWIE.DataLayer.Factories
             {
                 case "Dapper":
                     return new BlogPostRepository();
+                case "Mock":
+                    return new MockBlogPostRepository();
                 default:
                     return new EfBlogPostRepository();
             }

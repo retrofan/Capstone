@@ -148,6 +148,7 @@
     <Compile Include="Interfaces\IBlogPostRepository.cs" />
     <Compile Include="Interfaces\IPageRepository.cs" />
     <Compile Include="Interfaces\ITagRepository.cs" />
+    <Compile Include="Repositories\MockBlogPostRepository.cs" />
     <Compile Include="Repositories\PageRepository.cs" />
     <Compile Include="Repositories\TagRepository.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />

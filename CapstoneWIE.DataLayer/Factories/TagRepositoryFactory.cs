@@ -15,6 +15,8 @@ namespace CapstoneWIE.DataLayer.Factories
             {
                 case "Dapper":
                     return new TagRepository();
+           //     case "Mock":
+           //         return new MockTagRepository();
                 default:
                     return new EfTagRepository();
             }
